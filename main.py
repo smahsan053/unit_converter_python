@@ -5,8 +5,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 API_KEY = os.getenv("API_KEY")
-print(API_KEY)
-print(type(API_KEY))
 
 st.header("Unit Converter")
 
@@ -40,11 +38,9 @@ for measures in response.json()["allowedUnits"]:
 
 value = st.text_input("Enter Value")
 url = f"https://api.happi.dev/v1/unit-converter?from={from_unit}&to={to_unit}&value={value}"
-print(url)
 if st.button("Convert"):
     if from_unit and to_unit and value:
         response = requests.get(url, headers=headers)
-        print(response)
         if response.status_code == 200:
             result = response.json()
             from_unit = result.get('from', '').capitalize()
