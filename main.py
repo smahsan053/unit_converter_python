@@ -1,13 +1,19 @@
 import requests
 import streamlit as st
-import json
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
+print(API_KEY)
+print(type(API_KEY))
 
 st.header("Unit Converter")
 
 url = "https://api.happi.dev/v1/unit-converter"
 headers = {
     "accept": "application/json",
-    "x-happi-token": "hk171-o3oqMYHjDoD9tYwJ8UIKlNYg60BK80WW5H"
+    "x-happi-token": API_KEY
 }
 response = requests.get(url, headers=headers)
 
@@ -34,16 +40,17 @@ for measures in response.json()["allowedUnits"]:
 
 value = st.text_input("Enter Value")
 url = f"https://api.happi.dev/v1/unit-converter?from={from_unit}&to={to_unit}&value={value}"
-
+print(url)
 if st.button("Convert"):
     if from_unit and to_unit and value:
         response = requests.get(url, headers=headers)
+        print(response)
         if response.status_code == 200:
             result = response.json()
             from_unit = result.get('from', '').capitalize()
             to_unit = result.get('to', '').capitalize()
             converted_value = result.get('result', '')
-            st.write(f"{value} {from_unit} is equals to {converted_value} {to_unit}")
+            st.write(f"{value} {from_unit} is equals to {float(converted_value):.2f} {to_unit}")
         else:
             st.error(f"API Error: {response.status_code}")
     else:
