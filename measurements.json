@@ -1,0 +1,927 @@
+[
+    {
+        "unit": "mm",
+        "name": "Millimeters",
+        "measure": "length"
+    },
+    {
+        "unit": "cm",
+        "name": "Centimeters",
+        "measure": "length"
+    },
+    {
+        "unit": "m",
+        "name": "Meters",
+        "measure": "length"
+    },
+    {
+        "unit": "km",
+        "name": "Kilometers",
+        "measure": "length"
+    },
+    {
+        "unit": "in",
+        "name": "Inches",
+        "measure": "length"
+    },
+    {
+        "unit": "yd",
+        "name": "Yards",
+        "measure": "length"
+    },
+    {
+        "unit": "ft-us",
+        "name": "US Survey Feet",
+        "measure": "length"
+    },
+    {
+        "unit": "ft",
+        "name": "Feet",
+        "measure": "length"
+    },
+    {
+        "unit": "mi",
+        "name": "Miles",
+        "measure": "length"
+    },
+    {
+        "unit": "mm2",
+        "name": "Square Millimeters",
+        "measure": "area"
+    },
+    {
+        "unit": "cm2",
+        "name": "Centimeters",
+        "measure": "area"
+    },
+    {
+        "unit": "m2",
+        "name": "Square Meters",
+        "measure": "area"
+    },
+    {
+        "unit": "ha",
+        "name": "Hectares",
+        "measure": "area"
+    },
+    {
+        "unit": "km2",
+        "name": "Square Kilometers",
+        "measure": "area"
+    },
+    {
+        "unit": "in2",
+        "name": "Square Inches",
+        "measure": "area"
+    },
+    {
+        "unit": "yd2",
+        "name": "Square Yards",
+        "measure": "area"
+    },
+    {
+        "unit": "ft2",
+        "name": "Square Feet",
+        "measure": "area"
+    },
+    {
+        "unit": "ac",
+        "name": "Acres",
+        "measure": "area"
+    },
+    {
+        "unit": "mi2",
+        "name": "Square Miles",
+        "measure": "area"
+    },
+    {
+        "unit": "mcg",
+        "name": "Micrograms",
+        "measure": "mass"
+    },
+    {
+        "unit": "mg",
+        "name": "Milligrams",
+        "measure": "mass"
+    },
+    {
+        "unit": "g",
+        "name": "Grams",
+        "measure": "mass"
+    },
+    {
+        "unit": "kg",
+        "name": "Kilograms",
+        "measure": "mass"
+    },
+    {
+        "unit": "mt",
+        "name": "Metric Tonnes",
+        "measure": "mass"
+    },
+    {
+        "unit": "oz",
+        "name": "Ounces",
+        "measure": "mass"
+    },
+    {
+        "unit": "lb",
+        "name": "Pounds",
+        "measure": "mass"
+    },
+    {
+        "unit": "t",
+        "name": "Tons",
+        "measure": "mass"
+    },
+    {
+        "unit": "mm3",
+        "name": "Cubic Millimeters",
+        "measure": "volume"
+    },
+    {
+        "unit": "cm3",
+        "name": "Cubic Centimeters",
+        "measure": "volume"
+    },
+    {
+        "unit": "ml",
+        "name": "Millilitres",
+        "measure": "volume"
+    },
+    {
+        "unit": "cl",
+        "name": "Centilitres",
+        "measure": "volume"
+    },
+    {
+        "unit": "dl",
+        "name": "Decilitres",
+        "measure": "volume"
+    },
+    {
+        "unit": "l",
+        "name": "Litres",
+        "measure": "volume"
+    },
+    {
+        "unit": "kl",
+        "name": "Kilolitres",
+        "measure": "volume"
+    },
+    {
+        "unit": "m3",
+        "name": "Cubic meters",
+        "measure": "volume"
+    },
+    {
+        "unit": "km3",
+        "name": "Cubic kilometers",
+        "measure": "volume"
+    },
+    {
+        "unit": "krm",
+        "name": "Matskedar",
+        "measure": "volume"
+    },
+    {
+        "unit": "tsk",
+        "name": "Teskedar",
+        "measure": "volume"
+    },
+    {
+        "unit": "msk",
+        "name": "Matskedar",
+        "measure": "volume"
+    },
+    {
+        "unit": "kkp",
+        "name": "Kaffekoppar",
+        "measure": "volume"
+    },
+    {
+        "unit": "glas",
+        "name": "Glas",
+        "measure": "volume"
+    },
+    {
+        "unit": "kanna",
+        "name": "Kannor",
+        "measure": "volume"
+    },
+    {
+        "unit": "tsp",
+        "name": "Teaspoons",
+        "measure": "volume"
+    },
+    {
+        "unit": "Tbs",
+        "name": "Tablespoons",
+        "measure": "volume"
+    },
+    {
+        "unit": "in3",
+        "name": "Cubic inches",
+        "measure": "volume"
+    },
+    {
+        "unit": "fl-oz",
+        "name": "Fluid Ounces",
+        "measure": "volume"
+    },
+    {
+        "unit": "cup",
+        "name": "Cups",
+        "measure": "volume"
+    },
+    {
+        "unit": "pnt",
+        "name": "Pints",
+        "measure": "volume"
+    },
+    {
+        "unit": "qt",
+        "name": "Quarts",
+        "measure": "volume"
+    },
+    {
+        "unit": "gal",
+        "name": "Gallons",
+        "measure": "volume"
+    },
+    {
+        "unit": "ft3",
+        "name": "Cubic feet",
+        "measure": "volume"
+    },
+    {
+        "unit": "yd3",
+        "name": "Cubic yards",
+        "measure": "volume"
+    },
+    {
+        "unit": "ea",
+        "name": "Each",
+        "measure": "each"
+    },
+    {
+        "unit": "dz",
+        "name": "Dozens",
+        "measure": "each"
+    },
+    {
+        "unit": "C",
+        "name": "degrees Celsius",
+        "measure": "temperature"
+    },
+    {
+        "unit": "K",
+        "name": "degrees Kelvin",
+        "measure": "temperature"
+    },
+    {
+        "unit": "F",
+        "name": "degrees Fahrenheit",
+        "measure": "temperature"
+    },
+    {
+        "unit": "R",
+        "name": "degrees Rankine",
+        "measure": "temperature"
+    },
+    {
+        "unit": "ns",
+        "name": "Nanoseconds",
+        "measure": "time"
+    },
+    {
+        "unit": "mu",
+        "name": "Microseconds",
+        "measure": "time"
+    },
+    {
+        "unit": "ms",
+        "name": "Milliseconds",
+        "measure": "time"
+    },
+    {
+        "unit": "s",
+        "name": "Seconds",
+        "measure": "time"
+    },
+    {
+        "unit": "min",
+        "name": "Minutes",
+        "measure": "time"
+    },
+    {
+        "unit": "h",
+        "name": "Hours",
+        "measure": "time"
+    },
+    {
+        "unit": "d",
+        "name": "Days",
+        "measure": "time"
+    },
+    {
+        "unit": "week",
+        "name": "Weeks",
+        "measure": "time"
+    },
+    {
+        "unit": "month",
+        "name": "Months",
+        "measure": "time"
+    },
+    {
+        "unit": "year",
+        "name": "Years",
+        "measure": "time"
+    },
+    {
+        "unit": "b",
+        "name": "Bits",
+        "measure": "digital"
+    },
+    {
+        "unit": "Kb",
+        "name": "Kilobits",
+        "measure": "digital"
+    },
+    {
+        "unit": "Mb",
+        "name": "Megabits",
+        "measure": "digital"
+    },
+    {
+        "unit": "Gb",
+        "name": "Gigabits",
+        "measure": "digital"
+    },
+    {
+        "unit": "Tb",
+        "name": "Terabits",
+        "measure": "digital"
+    },
+    {
+        "unit": "B",
+        "name": "Bytes",
+        "measure": "digital"
+    },
+    {
+        "unit": "KB",
+        "name": "Kilobytes",
+        "measure": "digital"
+    },
+    {
+        "unit": "MB",
+        "name": "Megabytes",
+        "measure": "digital"
+    },
+    {
+        "unit": "GB",
+        "name": "Gigabytes",
+        "measure": "digital"
+    },
+    {
+        "unit": "TB",
+        "name": "Terabytes",
+        "measure": "digital"
+    },
+    {
+        "unit": "ppm",
+        "name": "Parts-per Million",
+        "measure": "partsPer"
+    },
+    {
+        "unit": "ppb",
+        "name": "Parts-per Billion",
+        "measure": "partsPer"
+    },
+    {
+        "unit": "ppt",
+        "name": "Parts-per Trillion",
+        "measure": "partsPer"
+    },
+    {
+        "unit": "ppq",
+        "name": "Parts-per Quadrillion",
+        "measure": "partsPer"
+    },
+    {
+        "unit": "m/s",
+        "name": "Metres per second",
+        "measure": "speed"
+    },
+    {
+        "unit": "km/h",
+        "name": "Kilometres per hour",
+        "measure": "speed"
+    },
+    {
+        "unit": "m/h",
+        "name": "Miles per hour",
+        "measure": "speed"
+    },
+    {
+        "unit": "knot",
+        "name": "Knots",
+        "measure": "speed"
+    },
+    {
+        "unit": "ft/s",
+        "name": "Feet per second",
+        "measure": "speed"
+    },
+    {
+        "unit": "min/km",
+        "name": "Minutes per kilometre",
+        "measure": "pace"
+    },
+    {
+        "unit": "s/m",
+        "name": "Seconds per metre",
+        "measure": "pace"
+    },
+    {
+        "unit": "min/mi",
+        "name": "Minutes per mile",
+        "measure": "pace"
+    },
+    {
+        "unit": "s/ft",
+        "name": "Seconds per foot",
+        "measure": "pace"
+    },
+    {
+        "unit": "Pa",
+        "name": "pascals",
+        "measure": "pressure"
+    },
+    {
+        "unit": "kPa",
+        "name": "kilopascals",
+        "measure": "pressure"
+    },
+    {
+        "unit": "MPa",
+        "name": "megapascals",
+        "measure": "pressure"
+    },
+    {
+        "unit": "hPa",
+        "name": "hectopascals",
+        "measure": "pressure"
+    },
+    {
+        "unit": "bar",
+        "name": "bar",
+        "measure": "pressure"
+    },
+    {
+        "unit": "torr",
+        "name": "torr",
+        "measure": "pressure"
+    },
+    {
+        "unit": "psi",
+        "name": "pounds per square inch",
+        "measure": "pressure"
+    },
+    {
+        "unit": "ksi",
+        "name": "kilopound per square inch",
+        "measure": "pressure"
+    },
+    {
+        "unit": "A",
+        "name": "Amperes",
+        "measure": "current"
+    },
+    {
+        "unit": "mA",
+        "name": "Milliamperes",
+        "measure": "current"
+    },
+    {
+        "unit": "kA",
+        "name": "Kiloamperes",
+        "measure": "current"
+    },
+    {
+        "unit": "V",
+        "name": "Volts",
+        "measure": "voltage"
+    },
+    {
+        "unit": "mV",
+        "name": "Millivolts",
+        "measure": "voltage"
+    },
+    {
+        "unit": "kV",
+        "name": "Kilovolts",
+        "measure": "voltage"
+    },
+    {
+        "unit": "W",
+        "name": "Watts",
+        "measure": "power"
+    },
+    {
+        "unit": "mW",
+        "name": "Milliwatts",
+        "measure": "power"
+    },
+    {
+        "unit": "kW",
+        "name": "Kilowatts",
+        "measure": "power"
+    },
+    {
+        "unit": "MW",
+        "name": "Megawatts",
+        "measure": "power"
+    },
+    {
+        "unit": "GW",
+        "name": "Gigawatts",
+        "measure": "power"
+    },
+    {
+        "unit": "VAR",
+        "name": "Volt-Amperes Reactive",
+        "measure": "reactivePower"
+    },
+    {
+        "unit": "mVAR",
+        "name": "Millivolt-Amperes Reactive",
+        "measure": "reactivePower"
+    },
+    {
+        "unit": "kVAR",
+        "name": "Kilovolt-Amperes Reactive",
+        "measure": "reactivePower"
+    },
+    {
+        "unit": "MVAR",
+        "name": "Megavolt-Amperes Reactive",
+        "measure": "reactivePower"
+    },
+    {
+        "unit": "GVAR",
+        "name": "Gigavolt-Amperes Reactive",
+        "measure": "reactivePower"
+    },
+    {
+        "unit": "VA",
+        "name": "Volt-Amperes",
+        "measure": "apparentPower"
+    },
+    {
+        "unit": "mVA",
+        "name": "Millivolt-Amperes",
+        "measure": "apparentPower"
+    },
+    {
+        "unit": "kVA",
+        "name": "Kilovolt-Amperes",
+        "measure": "apparentPower"
+    },
+    {
+        "unit": "MVA",
+        "name": "Megavolt-Amperes",
+        "measure": "apparentPower"
+    },
+    {
+        "unit": "GVA",
+        "name": "Gigavolt-Amperes",
+        "measure": "apparentPower"
+    },
+    {
+        "unit": "Wh",
+        "name": "Watt-hours",
+        "measure": "energy"
+    },
+    {
+        "unit": "mWh",
+        "name": "Milliwatt-hours",
+        "measure": "energy"
+    },
+    {
+        "unit": "kWh",
+        "name": "Kilowatt-hours",
+        "measure": "energy"
+    },
+    {
+        "unit": "MWh",
+        "name": "Megawatt-hours",
+        "measure": "energy"
+    },
+    {
+        "unit": "GWh",
+        "name": "Gigawatt-hours",
+        "measure": "energy"
+    },
+    {
+        "unit": "J",
+        "name": "Joules",
+        "measure": "energy"
+    },
+    {
+        "unit": "kJ",
+        "name": "Kilojoules",
+        "measure": "energy"
+    },
+    {
+        "unit": "VARh",
+        "name": "Volt-Amperes Reactive Hour",
+        "measure": "reactiveEnergy"
+    },
+    {
+        "unit": "mVARh",
+        "name": "Millivolt-Amperes Reactive Hour",
+        "measure": "reactiveEnergy"
+    },
+    {
+        "unit": "kVARh",
+        "name": "Kilovolt-Amperes Reactive Hour",
+        "measure": "reactiveEnergy"
+    },
+    {
+        "unit": "MVARh",
+        "name": "Megavolt-Amperes Reactive Hour",
+        "measure": "reactiveEnergy"
+    },
+    {
+        "unit": "GVARh",
+        "name": "Gigavolt-Amperes Reactive Hour",
+        "measure": "reactiveEnergy"
+    },
+    {
+        "unit": "mm3/s",
+        "name": "Cubic Millimeters per second",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "cm3/s",
+        "name": "Cubic Centimeters per second",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "ml/s",
+        "name": "Millilitres per second",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "cl/s",
+        "name": "Centilitres per second",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "dl/s",
+        "name": "Decilitres per second",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "l/s",
+        "name": "Litres per second",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "l/min",
+        "name": "Litres per minute",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "l/h",
+        "name": "Litres per hour",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "kl/s",
+        "name": "Kilolitres per second",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "kl/min",
+        "name": "Kilolitres per minute",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "kl/h",
+        "name": "Kilolitres per hour",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "m3/s",
+        "name": "Cubic meters per second",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "m3/min",
+        "name": "Cubic meters per minute",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "m3/h",
+        "name": "Cubic meters per hour",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "km3/s",
+        "name": "Cubic kilometers per second",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "tsp/s",
+        "name": "Teaspoons per second",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "Tbs/s",
+        "name": "Tablespoons per second",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "in3/s",
+        "name": "Cubic inches per second",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "in3/min",
+        "name": "Cubic inches per minute",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "in3/h",
+        "name": "Cubic inches per hour",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "fl-oz/s",
+        "name": "Fluid Ounces per second",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "fl-oz/min",
+        "name": "Fluid Ounces per minute",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "fl-oz/h",
+        "name": "Fluid Ounces per hour",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "cup/s",
+        "name": "Cups per second",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "pnt/s",
+        "name": "Pints per second",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "pnt/min",
+        "name": "Pints per minute",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "pnt/h",
+        "name": "Pints per hour",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "qt/s",
+        "name": "Quarts per second",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "gal/s",
+        "name": "Gallons per second",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "gal/min",
+        "name": "Gallons per minute",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "gal/h",
+        "name": "Gallons per hour",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "ft3/s",
+        "name": "Cubic feet per second",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "ft3/min",
+        "name": "Cubic feet per minute",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "ft3/h",
+        "name": "Cubic feet per hour",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "yd3/s",
+        "name": "Cubic yards per second",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "yd3/min",
+        "name": "Cubic yards per minute",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "yd3/h",
+        "name": "Cubic yards per hour",
+        "measure": "volumeFlowRate"
+    },
+    {
+        "unit": "lx",
+        "name": "Lux",
+        "measure": "illuminance"
+    },
+    {
+        "unit": "ft-cd",
+        "name": "Foot-candles",
+        "measure": "illuminance"
+    },
+    {
+        "unit": "mHz",
+        "name": "millihertz",
+        "measure": "frequency"
+    },
+    {
+        "unit": "Hz",
+        "name": "hertz",
+        "measure": "frequency"
+    },
+    {
+        "unit": "kHz",
+        "name": "kilohertz",
+        "measure": "frequency"
+    },
+    {
+        "unit": "MHz",
+        "name": "megahertz",
+        "measure": "frequency"
+    },
+    {
+        "unit": "GHz",
+        "name": "gigahertz",
+        "measure": "frequency"
+    },
+    {
+        "unit": "THz",
+        "name": "terahertz",
+        "measure": "frequency"
+    },
+    {
+        "unit": "rpm",
+        "name": "rotations per minute",
+        "measure": "frequency"
+    },
+    {
+        "unit": "deg/s",
+        "name": "degrees per second",
+        "measure": "frequency"
+    },
+    {
+        "unit": "rad/s",
+        "name": "radians per second",
+        "measure": "frequency"
+    },
+    {
+        "unit": "rad",
+        "name": "radians",
+        "measure": "angle"
+    },
+    {
+        "unit": "deg",
+        "name": "degrees",
+        "measure": "angle"
+    },
+    {
+        "unit": "grad",
+        "name": "gradians",
+        "measure": "angle"
+    },
+    {
+        "unit": "arcmin",
+        "name": "arcminutes",
+        "measure": "angle"
+    },
+    {
+        "unit": "arcsec",
+        "name": "arcseconds",
+        "measure": "angle"
+    }
+]
